@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mi">
+
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="414dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:padding="16dp"
+        android:text="Teknik Komputer"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textHeader"
+        android:layout_marginTop="67dp"
+        android:layout_marginLeft="110dp"
+        android:text="Deskripsi dan Profil"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDescription"
+        android:layout_marginTop="45dp"
+        android:lineSpacingExtra="10dp"
+        android:text="Program Studi Manajemen Informatika (Kampus Kab. Pelalawan) merupakan salah satu Program Studi Diluar Kampus Utama (PSDKU) Politeknik Negeri Padang yagn meiliki sejarah dan keterkaitan erat dengan berdirinya Akademik Komunitas di Daerah Pelalawan.                 Berangkat dari SK Pendirian Akademik Komunitas Nomor:179/P/2013 Tanggal 26 September 2013, Program Studi Diluar Domisili (PDD) Kabupaten Pelalawan di awal berdirinya memiliki Program Studi D2 Elektro Industri dan D2 Manajemen Informatika."
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="349dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/textContent"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#123456"
+        android:layout_marginLeft="30dp"
+        android:text="Back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+</android.widget.RelativeLayout>
